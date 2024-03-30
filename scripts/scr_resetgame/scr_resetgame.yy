@@ -6,7 +6,7 @@
   "name":"scr_resetgame",
   "parent":{
     "name":"load & save",
-    "path":"folders/Scripts/load & save.yy",
+    "path":"folders/Scripts/initialize/load & save.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

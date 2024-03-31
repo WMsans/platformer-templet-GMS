@@ -1,6 +1,7 @@
 function scr_initialize(){
 	randomize();
 	scr_enum();
+	global.gamestate = game_states.init;
 	
 	scr_loadgame();
 	global.target_x=global.checkpoint_x;
@@ -15,5 +16,5 @@ function scr_initialize(){
 	
 	#endregion
 	instance_create_depth(0,0,0,obj_GAME);
-	scr_fadeout(rm_01, global.target_x, global.target_y, obj_fade);
+	scr_fadeout(rm_title, global.target_x, global.target_y, obj_fade);
 }

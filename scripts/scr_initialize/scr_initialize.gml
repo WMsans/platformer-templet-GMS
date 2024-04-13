@@ -1,6 +1,7 @@
 function scr_initialize(){
 	randomize();
 	scr_enum();
+	scr_init_setting();
 	global.gamestate = game_states.init;
 	
 	scr_loadgame();
